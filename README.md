@@ -47,7 +47,7 @@ Below are the architecture diagrams illustrating different components of the Cry
    *Shows how AWS Lambda, EventBridge, SES, and DynamoDB work together.*
 
 3. **Alexa Integration Architecture**
-   <img src="./assets/Alexa.png" alt="Alexa Integration Architecture" width="50%" height="300px"/>
+   <img src="./assets/Alexa.png" alt="Alexa Integration Architecture" width="80%" height="600px"/>
    *Demonstrates the voice interface and Alexa skill integration.*
 ---
 ## 💻 Setup & Installation
