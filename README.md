@@ -34,7 +34,6 @@ A fully cloud-native, real-time cryptocurrency monitoring system built on AWS, l
 * `/assets` — Folder containing all architecture diagrams and system flow images.
 
 ---
-
 ## 🧩 Architecture Diagrams
 
 Below are the architecture diagrams illustrating different components of the Crypto Monitoring & Notification System:
@@ -48,11 +47,9 @@ Below are the architecture diagrams illustrating different components of the Cry
    *Shows how AWS Lambda, EventBridge, SES, and DynamoDB work together.*
 
 3. **Alexa Integration Architecture**
-   ![Alexa Integration Architecture](./assets/Alexa.png)
+   <img src="./assets/Alexa.png" alt="Alexa Integration Architecture" width="50%" height="300px"/>
    *Demonstrates the voice interface and Alexa skill integration.*
-
 ---
-
 ## 💻 Setup & Installation
 
 ### Prerequisites:
