@@ -38,13 +38,13 @@ Below are the architecture diagrams illustrating different components of the Cry
 ## 🧪 Demo/Screenshots
 
 1. **Alexa Voice Demo**  
-   <img src="./assets/Emaill.png" alt="Alexa Demo" width="60%"/>
+   <img src="./assets/Emaill.png" alt="Alexa Demo"/>
 
 2. **Hourly Email Report**  
-   <img src="./assets/Telegramm.png" alt="Email Demo" width="60%"/>
+   <img src="./assets/Telegramm.png" alt="Email Demo"/>
 
 3. **Telegram Price Alert**  
-   <img src="./assets/Alexaa.png" alt="Telegram Demo" width="60%"/>
+   <img src="./assets/Alexaa.png" alt="Telegram Demo"/>
 
 
 ## 🧱 Tech Stack
