@@ -4,7 +4,7 @@ A fully cloud-native, real-time cryptocurrency monitoring system built on AWS, l
 
 ---
 
-## 🚀 Project Overview
+## 🔍 Project Overview
 
 **Crypto Monitoring & Notification System** is a real-time, serverless application built with **AWS** services and **Python** to track cryptocurrency market trends and deliver updates across multiple channels.
 
@@ -21,29 +21,29 @@ A fully cloud-native, real-time cryptocurrency monitoring system built on AWS, l
 
 Below are the architecture diagrams illustrating different components of the Crypto Monitoring & Notification System:
 
-1. **Overall Architecture**  
+1. **Hourly Email Notification Architecture via Amazon SES**  
    ![Overall Architecture](./assets/Email.png)  
-   *Illustrates the complete system workflow and AWS services involved.*
+   *Illustrates how the system fetches crypto data and sends hourly updates via email using AWS services.*
 
-2. **AWS Services Integration**  
+2. **Telegram Price Alert Architecture**  
    ![AWS Services Integration](./assets/Ttelegram.png)  
-   *Shows how AWS Lambda, EventBridge, SES, and DynamoDB work together.*
+   *Shows how AWS Lambda and the Telegram Bot API work together for price alerts.*
 
-3. **Alexa Integration Architecture**  
+3. **Alexa Voice Command Integration**  
    <img src="./assets/Alexa.png" alt="Alexa Integration Architecture" width="80%" height="600px"/>  
-   *Demonstrates the voice interface and Alexa skill integration.*
+   *Demonstrates the voice interface workflow with Alexa Skills and AWS Lambda.*
 
 ---
 
 ## 🧪 Demo/Screenshots
 
-1. **Alexa Voice Demo**  
+1. **Hourly Email Report**  
    <img src="./assets/Emaill.png" alt="Alexa Demo"/>
 
-2. **Hourly Email Report**  
+2. **Telegram Price Alert**  
    <img src="./assets/Telegramm.png" alt="Email Demo"/>
 
-3. **Telegram Price Alert**  
+3. **Alexa Voice Demo**  
    <img src="./assets/Alexaa.png" alt="Telegram Demo"/>
 
 
@@ -55,6 +55,11 @@ Below are the architecture diagrams illustrating different components of the Cry
 * **Voice Interface**: Alexa Skill Kit
 
 ---
+## 📈 Use Cases
+
+- 💬 "Alexa, ask CryptoBot who is the top gainer today?"
+- 📧 Receive hourly crypto updates in your inbox
+- 🔔 Get Telegram alerts when Bitcoin shifts ±2%
 
 ## 🗂 Project Structure
 
@@ -81,3 +86,11 @@ Below are the architecture diagrams illustrating different components of the Cry
    ```bash
    git clone https://github.com/yourusername/crypto-monitoring-system.git 
    ```
+## 🏷️ Relevant Badges
+
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Built with AWS](https://img.shields.io/badge/Built%20with-AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Serverless Architecture](https://img.shields.io/badge/Serverless-Architecture-green?style=for-the-badge&logo=serverless&logoColor=white)
+![CoinGecko API](https://img.shields.io/badge/Data%20from-CoinGecko-00DC82?style=for-the-badge&logo=data&logoColor=white)
+![Alexa Skill Enabled](https://img.shields.io/badge/Alexa-Skill-1A73E8?style=for-the-badge&logo=amazonalexa&logoColor=white)
+![Telegram Notifications](https://img.shields.io/badge/Alerts-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
