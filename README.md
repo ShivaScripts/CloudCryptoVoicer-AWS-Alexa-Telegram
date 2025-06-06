@@ -17,6 +17,14 @@ A fully cloud-native, real-time cryptocurrency monitoring system built on AWS, l
 * 🌐 **Live Data from CoinGecko API** — Fetches real-time cryptocurrency data from a trusted public API.
 
 ---
+
+## 📈 Use Cases
+
+- 💬 "Alexa, ask CryptoBot who is the top gainer today?"
+- 📧 Receive hourly crypto updates in your inbox
+- 🔔 Get Telegram alerts when Bitcoin shifts ±2%
+
+
 ## 🧩 Architecture Diagrams
 
 Below are the architecture diagrams illustrating different components of the Crypto Monitoring & Notification System:
@@ -55,12 +63,14 @@ Below are the architecture diagrams illustrating different components of the Cry
 * **Voice Interface**: Alexa Skill Kit
 
 ---
-## 📈 Use Cases
+## 🧠 What I Learned
 
-- 💬 "Alexa, ask CryptoBot who is the top gainer today?"
-- 📧 Receive hourly crypto updates in your inbox
-- 🔔 Get Telegram alerts when Bitcoin shifts ±2%
-
+- Designing serverless systems using AWS  
+- Integrating Alexa with AWS Lambda  
+- Scheduling Lambda using EventBridge  
+- Using SES, Telegram Bot, and REST APIs for real-time notifications  
+- Storing and structuring logs using DynamoDB and S3  
+- Error handling and retries in cloud-native workflows
 ## 🗂 Project Structure
 
 * `lambda_function.py` — The Lambda function that integrates with the CoinGecko API, processes the data, and sends notifications via Alexa, Email, and Telegram.
